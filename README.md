@@ -2,9 +2,9 @@
 
 Sistema de comunicação educacional moderno e robusto construído com Spring Boot 3.x, oferecendo uma arquitetura escalável e funcionalidades avançadas.
 
-## 🚀 Funcionalidades Principais
+##  Funcionalidades Principais
 
-### ✨ Melhorias em relação à versão anterior:
+###  Melhorias em relação à versão anterior:
 - **Arquitetura Moderna**: Spring Boot 3.x com Java 17+
 - **Segurança Robusta**: JWT + Spring Security 6 com autorização baseada em roles
 - **Chat em Tempo Real**: WebSocket para comunicação instantânea
@@ -16,7 +16,7 @@ Sistema de comunicação educacional moderno e robusto construído com Spring Bo
 - **Auditoria**: Rastreamento automático de mudanças
 - **Migrations**: Flyway para versionamento de banco
 
-### 🎯 Funcionalidades do Sistema:
+###  Funcionalidades do Sistema:
 - **Gestão de Instituições**: CRUD completo com hierarquia de permissões
 - **Usuários Multi-Role**: Estudantes, Professores, Administradores
 - **Sistema de Notícias**: Publicação e gerenciamento de conteúdo
@@ -25,7 +25,7 @@ Sistema de comunicação educacional moderno e robusto construído com Spring Bo
 - **Cronograma**: Gestão de atividades e prazos
 - **Upload de Arquivos**: Suporte robusto para imagens e documentos
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ### Backend Core:
 - **Spring Boot 3.2.0**: Framework principal
@@ -54,7 +54,7 @@ Sistema de comunicação educacional moderno e robusto construído com Spring Bo
 - **SLF4J + Logback**: Logging estruturado
 - **Micrometer**: Métricas e monitoramento
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 src/main/java/com/comuniquecem/
@@ -70,7 +70,7 @@ src/main/java/com/comuniquecem/
 └── websocket/       # Configurações WebSocket
 ```
 
-## 🚦 Como Executar
+##  Como Executar
 
 ### Pré-requisitos:
 - Java 17+
@@ -116,7 +116,7 @@ docker-compose up -d  # Inicia PostgreSQL e Redis
 mvn spring-boot:run   # Executa a aplicação
 ```
 
-## 📊 Endpoints da API
+##  Endpoints da API
 
 ### Documentação Interativa:
 - **Swagger UI**: http://localhost:8080/swagger-ui.html
@@ -145,7 +145,7 @@ mvn spring-boot:run   # Executa a aplicação
 - `GET /api/chats` - Listar conversas
 - `POST /api/chats` - Iniciar nova conversa
 
-## 🧪 Testes
+##  Testes
 
 ### Executar todos os testes:
 ```bash
@@ -162,7 +162,7 @@ mvn clean test jacoco:report
 mvn test -Dtest=*IntegrationTest
 ```
 
-## 📈 Monitoramento
+##  Monitoramento
 
 ### Actuator Endpoints:
 - **Health**: http://localhost:8080/actuator/health
@@ -174,7 +174,7 @@ mvn test -Dtest=*IntegrationTest
 - Níveis configuráveis por ambiente
 - Rastreamento de requisições com correlation ID
 
-## 🔒 Segurança
+##  Segurança
 
 ### Autenticação:
 - JWT com refresh tokens
@@ -192,7 +192,7 @@ mvn test -Dtest=*IntegrationTest
 - CORS configurado
 - Headers de segurança
 
-## 🔧 Configuração
+##  Configuração
 
 ### Profiles Disponíveis:
 - `dev`: Desenvolvimento local
@@ -220,7 +220,7 @@ jwt:
   expiration: 86400000 # 24 hours
 ```
 
-## 🤝 Contribuição
+##  Contribuição
 
 1. Fork o projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
@@ -228,11 +228,11 @@ jwt:
 4. Push para a branch (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
 
-## 📝 Licença
+##  Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👥 Autores
+##  Autores
 
 - **Desenvolvedor Principal**: Bruno - Versão melhorada e modernizada
 - **Projeto Original**: Pedro Facchinetti / Gabriel Victor
